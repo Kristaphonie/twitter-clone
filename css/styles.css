@@ -127,11 +127,15 @@ body {
 		margin-bottom: 1em;
 		box-sizing: border-box;
 	}
+		#tweet-submit {
+			visibility: hidden;
+		}
 		#tweet-controls {
 			text-align: right;
 		}
 			#tweet-controls div {
 				display: inline-block;
+				visibility: hidden;
 			}
 			#char-count {
 				font-size: 14px;
